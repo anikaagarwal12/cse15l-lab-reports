@@ -1,5 +1,6 @@
 Lab Report Week 1
 <br>
+<br>
 ![Image](cdcommand.png)
 <br>
 This a command that changes the working directory. When we have no arguments passed in, the working directory was changed to the home directory. With a directory argument, the new working directory was changed to the directory passed as an argument. When a file path was passed in as an arguemment, an error message was thrown saying that the file wasn't a directory. The cd command can only accept directory arguments as that's what's going to be the final directory. 
