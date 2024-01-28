@@ -12,6 +12,7 @@ With a directory argument, the new working directory was changed to the director
 <br>
 When a file path was passed in as an arguemment, an error message was thrown saying that the file wasn't a directory. The cd command can only accept directory arguments as that's what's going to be the final directory.
 <br> This is a command that lists out the items in a directory as a list.
+<br>
 ![Image](lsnoarg.png)
 <br>
 When no arguments are passed in, it returns the items found in the current working directory.
@@ -22,6 +23,7 @@ With a directory arguemnt, it returns list of items in that directory.
 <br>
 With a file path argument, it returns the file path. 
 <br> This is a command that lists out the items in a directory as a list.
+<br>
 ![Image](catnoarg.png)
 <br>
 When no arguments are passed, it returns nothing.
