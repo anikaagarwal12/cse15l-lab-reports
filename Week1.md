@@ -1,6 +1,7 @@
 Lab Report Week 1
 <br>
 <br> This is a command that changes the working directory. 
+<br>
 ![Image](cdnoarg.png)
 <br>
 When we have no arguments passed in, the working directory was changed to the home directory.
