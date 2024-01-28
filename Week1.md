@@ -16,9 +16,11 @@ When a file path was passed in as an arguemment, an error message was thrown say
 ![Image](lsnoarg.png)
 <br>
 When no arguments are passed in, it returns the items found in the current working directory.
+<br>
 ![Image](ls1arg.png)
 <br>
 With a directory arguemnt, it returns list of items in that directory.
+<br>
 ![Image](ls2arg.png)
 <br>
 With a file path argument, it returns the file path. 
