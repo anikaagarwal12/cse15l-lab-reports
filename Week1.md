@@ -29,9 +29,11 @@ With a file path argument, it returns the file path.
 ![Image](catnoarg.png)
 <br>
 When no arguments are passed, it returns nothing.
+<br>
 ![Image](cat1arg.png)
 <br>
 When a directory argument is passed in, it throws an error saying that the argument was a directory. This is because it cannot concatenate and print the items in a directory as it isn't a file.
+<br>
 ![Image](cat2arg.png)
 <br> 
 When a file path is passed in, the contents of the file get printed out on the terminal.
