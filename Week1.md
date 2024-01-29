@@ -1,4 +1,4 @@
-Lab Report Week 1
+Lab Report Week 1  
 `cd`  This is a command that changes the working directory. 
 
 ![Image](cdnoarg.png)
