@@ -40,8 +40,9 @@ With a file path argument, it returns the file path.
 This is a command that lists out the items in a directory as a list.
 <br>
 ![Image](catnoarg.png)
+![Image](catnoarg1.png)
 <br>
-When no arguments are passed, it returns nothing.
+When no arguments are passed, it types the standard input back into the terminal. 
 <br>
 ![Image](cat1arg.png)
 <br>
