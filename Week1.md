@@ -1,5 +1,8 @@
 Lab Report Week 1
-<br> ''' cd ''' 
+<br> 
+' ' ' 
+cd 
+'''
 <br> This is a command that changes the working directory. 
 <br>
 ![Image](cdnoarg.png)
