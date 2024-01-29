@@ -1,11 +1,8 @@
 Lab Report Week 1
-<br> 
-<br>
-`cd`
-<br> This is a command that changes the working directory. 
-<br>
+`cd`  This is a command that changes the working directory. 
+
 ![Image](cdnoarg.png)
-<br>
+
 When we have no arguments passed in, the working directory was changed to the home directory. The two dots return back to one directory before the current directory. In this case, it went from:
 <br> 
 ` \home\ lecture1 ` --> ` \home `
