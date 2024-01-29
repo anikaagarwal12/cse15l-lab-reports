@@ -1,5 +1,6 @@
 Lab Report Week 1
 <br> 
+<br>
 ` cd   `
 <br> This is a command that changes the working directory. 
 <br>
@@ -21,6 +22,7 @@ When a file path was passed in as an argument, an error message was thrown sayin
 <br>
 `\home\lecture1 `
 <br>
+<br>
 ` ls ` 
 <br> 
 This is a command that lists out the items in a directory as a list.
@@ -36,6 +38,7 @@ With a directory argument, it returns a list of items in that directory.
 ![Image](ls2arg.png)
 <br>
 With a file path argument, it returns the file path. 
+<br>
 <br>
 ` cat  ` 
 <br> 
