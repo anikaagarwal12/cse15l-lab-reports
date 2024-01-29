@@ -5,22 +5,22 @@ Lab Report Week 1
 
 When we have no arguments passed in, the working directory was changed to the home directory. The two dots return back to one directory before the current directory. In this case, it went from:
 
-` \home\ lecture1 ` --> ` \home `
+`\home\ lecture1` --> `\home`
 
 ![Image](cd1arg.png)
 
 With a directory argument, the new working directory was changed to the directory passed as an argument. In this case, it went from:
 
-` \home ` --> ` \home\lecture1 `
+`\home` --> `\home\lecture1`
 
 ![Image](cd2arg.png)
 
-When a file path was passed in as an argument, an error message was thrown saying that the file wasn't a directory. The ` cd ` command can only accept directory arguments as that's what's going to be the final directory. Hence, the directories remained: 
+When a file path was passed in as an argument, an error message was thrown saying that the file wasn't a directory. The `cd` command can only accept directory arguments as that's what's going to be the final directory. Hence, the directories remained: 
 
-`\home\lecture1 `
+`\home\lecture1`
 
 
-` ls ` 
+`ls` 
 
 This is a command that lists out the items in a directory as a list.
 
@@ -37,7 +37,7 @@ With a directory argument, it returns a list of items in that directory.
 With a file path argument, it returns the file path. 
 
 
-` cat  ` 
+`cat` 
 
 This is a command that prints out the contents of a single file. This is time-saving as one doesn't have to open the entire file in a large application and can read the contents still. 
 
