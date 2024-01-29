@@ -18,6 +18,7 @@ With a directory argument, the new working directory was changed to the director
 ![Image](cd2arg.png)
 <br>
 When a file path was passed in as an argument, an error message was thrown saying that the file wasn't a directory. The ` cd ` command can only accept directory arguments as that's what's going to be the final directory. Hence, the directories remained: 
+<br>
 `\home\lecture1 `
 <br>
 ` ls ` 
