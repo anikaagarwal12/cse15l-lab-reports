@@ -5,14 +5,23 @@ Lab Report Week 1
 <br>
 ![Image](cdnoarg.png)
 <br>
-When we have no arguments passed in, the working directory was changed to the home directory.
+When we have no arguments passed in, the working directory was changed to the home directory. 
+<br> 
+` \home\ lecture1 ` --> ` \home `
+<br>
 ![Image](cd1arg.png)
 <br>
 With a directory argument, the new working directory was changed to the directory passed as an argument.
+<br>
+` \home ` --> ` \home\lecture1 `
+<br>
 ![Image](cd2arg.png)
 <br>
-When a file path was passed in as an arguemment, an error message was thrown saying that the file wasn't a directory. The cd command can only accept directory arguments as that's what's going to be the final directory.
-<br> This is a command that lists out the items in a directory as a list.
+When a file path was passed in as an argument, an error message was thrown saying that the file wasn't a directory. The ` cd ` command can only accept directory arguments as that's what's going to be the final directory.
+<br>
+` ls ` 
+<br> 
+This is a command that lists out the items in a directory as a list.
 <br>
 ![Image](lsnoarg.png)
 <br>
@@ -20,12 +29,15 @@ When no arguments are passed in, it returns the items found in the current worki
 <br>
 ![Image](ls1arg.png)
 <br>
-With a directory arguemnt, it returns list of items in that directory.
+With a directory argument, it returns a list of items in that directory.
 <br>
 ![Image](ls2arg.png)
 <br>
 With a file path argument, it returns the file path. 
-<br> This is a command that lists out the items in a directory as a list.
+<br>
+` cat  ` 
+<br> 
+This is a command that lists out the items in a directory as a list.
 <br>
 ![Image](catnoarg.png)
 <br>
