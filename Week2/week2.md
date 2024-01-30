@@ -6,7 +6,7 @@ In our server, we want the output to like the following:
 `<user>: <message>`
 The following is the code for `Chat Server`
 
-` ` `
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.*;
@@ -44,7 +44,7 @@ class ChatServer {
         Server.start(port, new Handler1());
         }    
 } 
-` ` ` 
+```
 
 Once we compile and run this code, we opened up a new server called `ChatServer 3020`. 
 Running different paths on the server gives us the following outputs: 
