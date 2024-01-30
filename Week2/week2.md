@@ -6,7 +6,8 @@ In our server, we want the output to like the following:
 `<user>: <message>`
 The following is the code for `Chat Server`
 
-`import java.io.IOException;
+` ` `
+import java.io.IOException;
 import java.net.URI;
 import java.util.*;
 
@@ -43,6 +44,7 @@ class ChatServer {
         Server.start(port, new Handler1());
         }    
 } 
+` ` ` 
 
 Once we compile and run this code, we opened up a new server called `ChatServer 3020`. 
 Running different paths on the server gives us the following outputs: 
@@ -51,22 +53,21 @@ This screenshot show us the output after `/add-message?s=Hello&user=jpolitz` and
 
 The methods called in my code are the main method and the handleRequest method. 
 
-Main Method: 
+Main Method:   
 The main method creates a new server using the port number provided as args[0] in the command line.
-
 The main method takes in the server port number as its main argument. This argument needs to be between `1024 to 49151`.
-
 Each time the method is run with a new set of argument, a new server at that port is created.
 
-handleRequest Method:
+handleRequest Method:  
 The handleRequest method takes the URL that has been provided as the argument and applies a bunch of inbuilt .split method to split the url into parts which can be turned into the desired output. 
-
 I specifically have split the url based on the `=` sign. After that, I split the produced strings into further substrings using `&user` to obtain specific values from the url. 
-
 The values that get changed are second and first `String` variables. These get changed each time the method is called. The messages `String` also changes each time the method is called and helps store the history of the text in the `Chat Server`. It prints out the previous text messages as history in the server. 
 
 ![Image](labreport2part1.1.png) 
-This screenshot shows us the output after `/add-message?s=Hello&user=jpolitz` and `/add-message?s=How are you&user=yash` and `/add-message?s=How are you&user=yash`.
+This screenshot shows us the output after 
+`/add-message?s=Hello&user=jpolitz`
+and `/add-message?s=How are you&user=yash`
+and `/add-message?s=How are you&user=yash`.
 
 Part 2
 Private Key
@@ -74,9 +75,10 @@ Private Key
 Public Key
 ![Image](labreport2part2.png)
 Logging in without password
-![Image](labreport2part3.3png)
+![Image](labreport2part3.3.png)
 
 Part 3
+
 Something interesting that I learned in this lab was the function of a computer like `ieng6`. For exmaple through public and private keys, we are able to log into a computer that we don't even know where it exists to run things on it. 
 1. If there are applications that are only found on that computer, we can access it through our personal computer. 
 2. If there is a program that requires high efficiency, we can run it on the faster computer through our personal computer. 
