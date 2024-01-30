@@ -53,12 +53,12 @@ This screenshot show us the output after `/add-message?s=Hello&user=jpolitz` and
 
 The methods called in my code are the main method and the handleRequest method. 
 
-Main Method:   
+`Main Method`:   
 The main method creates a new server using the port number provided as args[0] in the command line.
 The main method takes in the server port number as its main argument. This argument needs to be between `1024 to 49151`.
 Each time the method is run with a new set of argument, a new server at that port is created.
 
-handleRequest Method:  
+`handleRequest` Method:  
 The handleRequest method takes the URL that has been provided as the argument and applies a bunch of inbuilt .split method to split the url into parts which can be turned into the desired output. 
 I specifically have split the url based on the `=` sign. After that, I split the produced strings into further substrings using `&user` to obtain specific values from the url. 
 The values that get changed are second and first `String` variables. These get changed each time the method is called. The messages `String` also changes each time the method is called and helps store the history of the text in the `Chat Server`. It prints out the previous text messages as history in the server. 
