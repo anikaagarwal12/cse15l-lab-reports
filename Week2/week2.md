@@ -69,12 +69,12 @@ This screenshot shows us the output after
 and `/add-message?s=How are you&user=yash`  
 and `/add-message?s=How are you&user=yash`.  
 
-Part 2
+Part 2    
 Private Key
 ![Image](labreport2part2.1.png)
-Public Key
+Public Key   
 ![Image](labreport2part2.png)
-Logging in without password
+Logging in without password   
 ![Image](labreport2part3.3.png)
 
 Part 3
