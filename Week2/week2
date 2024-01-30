@@ -60,8 +60,16 @@ This screenshot shows us the output after `/add-message?s=Hello&user=jpolitz` an
 
 Part 2
 Private Key
-
+![Image](labreport2part2.1.png)
 Public Key
+![Image](labreport2.part2.png)
 Logging in without password
+![Image](labreport2part3.3png)
+
+Part 3
+Something interesting that I learned in this lab was the function of a computer like `ieng6`. For exmaple through public and private keys, we are able to log into a computer that we don't even know where it exists to run things on it. 
+1. If there are applications that are only found on that computer, we can access it through our personal computer. 
+2. If there is a program that requires high efficiency, we can run it on the faster computer through our personal computer. 
+Once the public and private keys are in sync with the computer we want to connect with and our personal computer, there are so many great things we can do!
 
 
