@@ -1,9 +1,11 @@
 Part 1
 We will be creating a `Chat Server` in this part of the lab. The type of inputs that we expect are as follows:
 `/add-message?s=<string>&user=<string>`
+
 In our server, we want the output to like the following:
 `<user>: <message>`
 The following is the code for `Chat Server`
+
 `import java.io.IOException;
 import java.net.URI;
 import java.util.*;
