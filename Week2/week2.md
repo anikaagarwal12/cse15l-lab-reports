@@ -65,9 +65,9 @@ The values that get changed are second and first `String` variables. These get c
 
 ![Image](labreport2part1.1.png) 
 This screenshot shows us the output after 
-`/add-message?s=Hello&user=jpolitz`
-and `/add-message?s=How are you&user=yash`
-and `/add-message?s=How are you&user=yash`.
+`/add-message?s=Hello&user=jpolitz`  
+and `/add-message?s=How are you&user=yash`  
+and `/add-message?s=How are you&user=yash`.  
 
 Part 2
 Private Key
