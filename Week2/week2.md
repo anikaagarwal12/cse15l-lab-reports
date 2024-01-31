@@ -63,10 +63,10 @@ The `handleRequest method` takes the URL that has been provided as the argument 
 In this case the arguments are : `/add-message?s=Hello&user=jpolitz` and `/add-message?s=How are you&user=yash`.
 
 I specifically have split the url based on the `=` sign. After that, I split the produced strings into further substrings using `&user` to obtain specific values from the url. In this case, my string values after applying two `.split` methods are `Hello: jpolitz`.  
-The values that get changed are `String first` and `String second` variables. These get changed each time the method is called. The messages `String` also changes each time the method is called and helps store the history of the text in the `Chat Server`. It prints out the previous text messages as history in the server.  
-`String first = null` --> `String first = Hello`
-`String second = null` --> `String second = jpolitz`
-`String messages = ""` --> `String messages = "Hello: jpolitz`.
+The values that get changed are `String first` and `String second` variables. These get changed each time the method is called. The messages `String` also changes each time the method is called and helps store the history of the text in the `Chat Server`. It prints out the previous text messages as history in the server.    
+`String first = null` --> `String first = Hello`  
+`String second = null` --> `String second = jpolitz`  
+`String messages = ""` --> `String messages = "Hello: jpolitz`.  
 
 ![Image](labreport2part1.1.png) 
 This iteration of the code has the same two methods: 
@@ -75,10 +75,10 @@ The arguments in this situation are:
 `/add-message?s=Hello&user=jpolitz`  
 and `/add-message?s=How are you&user=yash`  
 and `/add-message?s=How are you&user=yash`.  
-The values get changed as follows:
-`String first = null` --> `String first = yash`
-`String second = null` --> `String second = how+are+you`
-`String messages = ""` --> `String messages = "yash: how+are+you`.
+The values get changed as follows:  
+`String first = null` --> `String first = yash`  
+`String second = null` --> `String second = how+are+you`  
+`String messages = ""` --> `String messages = "yash: how+are+you`.  
 
 
 Part 2    
