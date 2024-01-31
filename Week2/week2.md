@@ -1,4 +1,4 @@
-Part 1
+Part 1  
 We will be creating a `Chat Server` in this part of the lab. The type of inputs that we expect are as follows:
 `/add-message?s=<string>&user=<string>`
 
