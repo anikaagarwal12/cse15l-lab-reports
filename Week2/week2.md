@@ -70,7 +70,7 @@ The values that get changed are `String first` and `String second` variables. Th
 
 ![Image](labreport2part1.1.png) 
 This iteration of the code has the same two methods: 
-`Main Method` and `handleRequest`. 
+`Main Method` and `handleRequest`.   
 The arguments in this situation are:   
 `/add-message?s=Hello&user=jpolitz`  
 and `/add-message?s=How are you&user=yash`  
