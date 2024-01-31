@@ -77,8 +77,8 @@ and `/add-message?s=How are you&user=yash`
 and `/add-message?s=How are you&user=yash`.  
 The values get changed as follows:  
 `String first = null` --> `String first = yash`  
-`String second = null` --> `String second = how+are+you`  
-`String messages = ""` --> `String messages = "yash: how+are+you`.  
+`String second = null` --> `String second = How+are+you`  
+`String messages = ""` --> `String messages = "yash: How+are+you`.  
 
 
 Part 2    
