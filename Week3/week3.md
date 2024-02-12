@@ -136,6 +136,7 @@ The input that I gave ChatGPT is "command line options for find" and I received 
 ``` find ```
 
  ``` -name ```
+ 
  Example 1:
  ```
  Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
@@ -163,6 +164,7 @@ technical/government/About_LSC/Strategic_report.txt
 ```
 
  ``` -type ```
+ 
  Example 1:
 ```
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
@@ -188,6 +190,7 @@ technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
 
  ```-mtime ```
+ 
  Example 1:
  ```
  $ find technical/government/ -mtime -24
@@ -207,7 +210,9 @@ technical/911report/
 technical/911report/chapter-9.txt
 technical/911report/preface.txt
 ```
+
  ```-size```
+ 
  Example 1:
  ```
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
