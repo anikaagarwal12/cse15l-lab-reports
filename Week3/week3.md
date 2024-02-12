@@ -211,6 +211,7 @@ technical/911report/preface.txt
 ```
 
  ```-size```  
+ 
  Example 1:
  ```
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
