@@ -163,8 +163,7 @@ technical/government/About_LSC/State_Planning_Special_Report.txt
 technical/government/About_LSC/Strategic_report.txt
 ```
 
- ``` -type ```
- 
+ ``` -type ```  
  Example 1:
 ```
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
