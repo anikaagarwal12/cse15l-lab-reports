@@ -132,7 +132,8 @@ This is because it doesn't test the other part of the code that caused an error 
 ---
 Part 2 - Research Commands  
 All of the commands that I found below are suggested by ChatGPT. 
-The input that I gave ChatGPT is "command line options for find" and I received a bunch of options with details on how to use them.   
+The input that I gave ChatGPT is "command line options for find" and I received a bunch of options with details on how to use them. 
+
 ``` find ```
 
 ---
