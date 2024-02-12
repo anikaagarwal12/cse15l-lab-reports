@@ -127,8 +127,8 @@ The following is a test that doesn't induce a failure.
     assertEquals(0.0, ArrayExamples.averageWithoutLowest(input1), 0.0001);
   }
 ```
-
 This is because it doesn't test the other part of the code that caused an error in the other tests. 
+
 ---
 Part 2 - Research Commands  
 All of the commands that I found below are suggested by ChatGPT. 
