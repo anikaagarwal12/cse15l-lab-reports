@@ -129,12 +129,13 @@ The following is a test that doesn't induce a failure.
 ```
 
 This is because it doesn't test the other part of the code that caused an error in the other tests. 
-
-Part 2 - Research Commands
+---
+Part 2 - Research Commands  
 All of the commands that I found below are suggested by ChatGPT. 
 The input that I gave ChatGPT is "command line options for find" and I received a bunch of options with details on how to use them. 
 ``` find ```
 
+---
  ``` -name ```
  
  Example 1:
@@ -162,7 +163,7 @@ technical/government/About_LSC/commission_report.txt
 technical/government/About_LSC/State_Planning_Special_Report.txt
 technical/government/About_LSC/Strategic_report.txt
 ```
-
+---
  ``` -type ```  
  Example 1:
 ```
@@ -187,7 +188,7 @@ technical/government/About_LSC/conference_highlights.txt
 technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
-
+---
  ```-mtime ```
  
  Example 1:
@@ -209,7 +210,7 @@ technical/911report/
 technical/911report/chapter-9.txt
 technical/911report/preface.txt
 ```
-
+---
  ```-size```  
  
  Example 1:
