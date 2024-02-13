@@ -47,9 +47,8 @@ class ChatServer {
 ```
 
 Once we compile and run this code, we opened up a new server called `ChatServer 3020`. 
-Running different paths on the server gives us the following outputs: 
-![Image](labreport1.1.png)
-This screenshot show us the output after `/add-message?s=Hello&user=jpolitz` and `/add-message?s=How are you&user=yash`. 
+Running the same path but with different arguments on the server produces different results: 
+
 
 The methods called in my code are the main method and the handleRequest method. 
 
@@ -62,24 +61,31 @@ Each time the method is run with a new set of argument, a new server at that por
 The `handleRequest method` takes the URL that has been provided as the argument and applies a bunch of inbuilt `.split` method to split the url into parts which can be turned into the desired output. This method only runs if the url path contains `/add-message`.
 In this case the arguments are : `/add-message?s=Hello&user=jpolitz` and `/add-message?s=How are you&user=yash`.
 
-I specifically have split the url based on the `=` sign. After that, I split the produced strings into further substrings using `&user` to obtain specific values from the url. In this case, my string values after applying two `.split` methods are `Hello: jpolitz`.  
-The values that get changed are `String first` and `String second` variables. These get changed each time the method is called. The messages `String` also changes each time the method is called and helps store the history of the text in the `Chat Server`. It prints out the previous text messages as history in the server.    
-`String first = null` --> `String first = Hello`  
-`String second = null` --> `String second = jpolitz`  
-`String messages = ""` --> `String messages = "Hello: jpolitz`.  
+I specifically have split the url based on the `=` sign. After that, I split the produced strings into further substrings using `&user` to obtain specific values from the url. In this case, my string values after applying two `.split` methods are `Yash: how`.  
+The values that get changed are `String first` and `String second` variables. These get changed each time the method is called. The messages `String` also changes each time the method is called and helps store the history of the text in the `Chat Server`. It prints out the previous text messages as history in the server.  
 
-![Image](labreport2part1.1.png) 
-This iteration of the code has the same two methods: 
-`Main Method` and `handleRequest`.   
-The arguments in this situation are:   
-`/add-message?s=Hello&user=jpolitz`  
-and `/add-message?s=How are you&user=yash`  
-and `/add-message?s=How are you&user=yash`.  
-The values get changed as follows:  
-`String first = null` --> `String first = yash`  
-`String second = null` --> `String second = How+are+you`  
-`String messages = ""` --> `String messages = "yash: How+are+you`.  
+![Image](lab2revision1.png)
+This screenshot shows us the output after `/add-message?s=how&user=Yash`. 
+Arguments:
+`sub [0]` == `how`
+`parameters [2]` == `Yash`
+Values:
+`String first = null` --> `String first = Yash`  
+`String second = null` --> `String second = how`  
+`String messages = ""` --> `String messages = "Yash: how`.  
+Methods Called: Main method, handleRequest
 
+
+![Image](lab2revision2.png) 
+This screenshot shows us the output after `/add-message?s=good&user=Joe`  
+Arguments:
+`sub [0]` == `good`
+`parameters [2]` == `Joe`
+Values:
+`String first = Yash` --> `String first = Joe`  
+`String second = how` --> `String second = good`  
+`String messages = ""` --> `String messages = "Joe: good`.  
+Methods Called: Main method, handleRequest
 
 Part 2    
 Private Key
