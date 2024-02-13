@@ -212,9 +212,11 @@ technical/911report/chapter-9.txt
 technical/911report/preface.txt
 ```
 ---
- ```-size```  
+
+
+```-size```  
  
- Example 1:  
+Example 1:  
  
 ```
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)  
@@ -225,7 +227,8 @@ technical/government/About_LSC/commission_report.txt
 technical/government/Post_Rate_Comm/WolakSpeech_usps.txt  
 ```  
 
- Example 2:
+Example 2:  
+ 
 ``` 
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)  
 $ find technical/government/Media/ -size +1k  
