@@ -228,7 +228,7 @@ technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
  Example 2:
  
  ```
-Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
+Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)  
 $ find technical/government/Media/ -size +1k  
 technical/government/Media/5_Legal_Groups.txt  
 technical/government/Media/Abuse_penalties.txt  
