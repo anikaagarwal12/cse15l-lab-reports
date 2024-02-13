@@ -215,17 +215,18 @@ technical/911report/preface.txt
  ```-size```  
  
  Example 1:
- ```
+ `
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
 $ find technical/government/ -size +1b
 technical/government/About_LSC/Comments_on_semiannual.txt
 technical/government/About_LSC/commission_report.txt
 ...
 technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
-```
+`
 
  Example 2:
- ```
+ 
+ `
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
 $ find technical/government/Media/ -size +1k
 technical/government/Media/5_Legal_Groups.txt
@@ -234,7 +235,7 @@ technical/government/Media/Advocate_for_Poor.txt
 ...
 technical/government/Media/Workers_aid_center.txt
 technical/government/Media/Working_for_Free.txt
-```
+`
  
 
 
