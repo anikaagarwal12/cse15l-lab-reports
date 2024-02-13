@@ -65,27 +65,27 @@ I specifically have split the url based on the `=` sign. After that, I split the
 The values that get changed are `String first` and `String second` variables. These get changed each time the method is called. The messages `String` also changes each time the method is called and helps store the history of the text in the `Chat Server`. It prints out the previous text messages as history in the server.  
 
 ![Image](lab2revision1.png)
-This screenshot shows us the output after `/add-message?s=how&user=Yash`. 
-Arguments:
-`sub [0]` == `how`
-`parameters [2]` == `Yash`
-Values:
-`String first = null` --> `String first = Yash`  
-`String second = null` --> `String second = how`  
-`String messages = ""` --> `String messages = "Yash: how`.  
-Methods Called: Main method, handleRequest
+This screenshot shows us the output after `/add-message?s=how&user=Yash`.   
+Arguments:  
+`sub [0]` == `how`  
+`parameters [2]` == `Yash`  
+Values:  
+`String first = null` --> `String first = Yash`    
+`String second = null` --> `String second = how`    
+`String messages = ""` --> `String messages = "Yash: how`.    
+Methods Called: Main method, handleRequest  
 
 
 ![Image](lab2revision2.png) 
-This screenshot shows us the output after `/add-message?s=good&user=Joe`  
-Arguments:
-`sub [0]` == `good`
-`parameters [2]` == `Joe`
-Values:
-`String first = Yash` --> `String first = Joe`  
-`String second = how` --> `String second = good`  
-`String messages = ""` --> `String messages = "Joe: good`.  
-Methods Called: Main method, handleRequest
+This screenshot shows us the output after `/add-message?s=good&user=Joe`    
+Arguments:  
+`sub [0]` == `good`  
+`parameters [2]` == `Joe`  
+Values:  
+`String first = Yash` --> `String first = Joe`    
+`String second = how` --> `String second = good`    
+`String messages = ""` --> `String messages = "Joe: good`.    
+Methods Called: Main method, handleRequest  
 
 Part 2    
 Private Key
