@@ -190,7 +190,7 @@ technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
 ---
- ```-mtime ```
+```-mtime ```
  
  Example 1:
  ```
@@ -213,7 +213,7 @@ technical/911report/preface.txt
 ```
 ---
 
- ```size```  
+```size```  
  Example 1 
  ```
 Anika@LAPTOP-G52370DB MINGW64 ~/Anika/UCSD/UCSDWINTER2024/CSE15L/docsearch (main)
