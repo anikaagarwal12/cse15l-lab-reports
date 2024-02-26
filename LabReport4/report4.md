@@ -1,12 +1,15 @@
-Step 4: 
-
+Step 4: Logging into ieng6
 `ssh ana012@ieng6.ucsd.edu`
 I pressed the relevant keys above to type up things. 
+Since I want to organize my files, I created a `lab7report` folder to clone my fork into
 `mkdir` to create a  `lab7report` folder
+
+Step 5: Cloning my fork
 `git clone git@github.com:anikaagarwal12/lab7.git` 
 I pressed the relevant keys above to type up things. 
-cd lab7
+`cd` lab7
 
+Step 6:Running tests to show that they fail
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java ListExamplesTests.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
@@ -28,12 +31,16 @@ org.junit.runners.model.TestTimedOutException: test timed out after 500 millisec
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
+
+Step 7: Editing code to fix the bug
 vim ListExamples.java
 43 down keys
 11 right 
 i and delete and 2
 escape
 :wq!
+
+Step 8: Rerunning the files to see success
 [ana012@ieng6-201]:lab7:182$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java ListExamples.java
 [ana012@ieng6-201]:lab7:183$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 JUnit version 4.13.2
@@ -42,7 +49,7 @@ Time: 0.014
 
 OK (2 tests)
 
-
+Step 9: Commit and push
 [ana012@ieng6-201]:lab7:184$ git add --all
 [ana012@ieng6-201]:lab7:185$ git commit -m "lab7report changes"
 [main 4eff394] lab7report changes
@@ -71,8 +78,3 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:anikaagarwal12/lab7.git
    5e6617f..95c7350  main -> main
 
-Step 5: 
-Step 6:
-Step 7:
-Step 8:
-Step 9:
