@@ -8,7 +8,7 @@ Input 1:
 ``` 
 @Test
   public void testAverageWithoutLowestMultiple() {
-    double[] input1 = {1,0, 1.0, 2.0, 3.0};
+    double[] input1 = {1.0, 1.0, 2.0, 3.0};
     assertEquals(2.5, ArrayExamples.averageWithoutLowest(input1), 0.0001);
   }
 ```
@@ -31,8 +31,20 @@ java.lang.AssertionError: expected:<2.5> but was:<1.75>
         at org.junit.Assert.assertEquals(Assert.java:685)
         at ArrayTests.testAverageWithoutLowestMultiple(ArrayTests.java:60)
 ```
-The output of this test failing was a symptom that demonstrated a bug in the code.  It failed because the expected ```averageWithoutLowest()``` was 2.5, but it came out to be 1.66. 
+
+Input 1 Success: 
+```
+JUnit version 4.13.2
+........
+Time: 0.028
+
+OK (8 tests)
+
+The output of this test failing was a symptom that demonstrated a bug in the code.  It failed because the expected ```averageWithoutLowest()``` was 2.5, but it came out to be 1.66.
+```
+
 Input 2 Fail:
+
 ```
 1) testAverageWithoutLowestMultiple(ArrayTests)
 java.lang.AssertionError: expected:<2.5> but was:<1.6666666666666667>
@@ -80,7 +92,7 @@ Changed Version:
   for (int i = 1; i < arr.length; i++) {
       if (arr[i] < lowest) {
           lowest = arr[i];
-         lowestCount++;// Reset count for new distinct lowest value
+         lowestCount = 1;// Reset count for new distinct lowest value
       } else if (arr[i] == lowest) {
           lowestCount++; // Increment count for each occurrence of the current lowest value
       }
@@ -127,12 +139,33 @@ The following is a test that doesn't induce a failure.
     assertEquals(0.0, ArrayExamples.averageWithoutLowest(input1), 0.0001);
   }
 ```
+This was the output of the test passing: 
+```
+JUnit version 4.13.2
+.
+Time: 0.022
+
+OK (1 test)
+```
+
 This is because it doesn't test the other part of the code that caused an error in the other tests. 
 
 ---
 Part 2 - Research Commands  
 All of the commands that I found below are suggested by ChatGPT. 
 The input that I gave ChatGPT is "command line options for find" and I received a bunch of options with details on how to use them. 
+This is the output that I received from ChatGPT: 
+```
+The find command in Unix/Linux systems is a powerful tool for searching for files and directories within a specified directory hierarchy. It comes with a variety of command line options to customize the search. Here are some commonly used options:
+
+-name pattern: Searches for files and directories with the specified name pattern.
+
+Example: find /path/to/search -name "*.txt"
+...
+
+These are just a few options available for the find command. You can combine multiple options to tailor your search according to your requirements. Always refer to the man page (man find) for more detailed information and additional options.
+```
+I used the command names and the directions to use them and used them on my DocSearch directory as follows. 
 
 ``` find ```
 
