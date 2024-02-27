@@ -1,18 +1,27 @@
 Step 4: Logging into ieng6
 `ssh ana012@ieng6.ucsd.edu`
 I pressed the relevant keys above to type up things. 
-Since I want to organize my files, I created a `lab7report` folder to clone my fork into
+Since I wanted to organize my files, I created a `lab7report` folder to clone my fork into
 `mkdir` to create a  `lab7report` folder
+
+--- 
+
 
 Step 5: Cloning my fork
 `git clone git@github.com:anikaagarwal12/lab7.git` 
 I pressed the relevant keys above to type up things. 
+Since this clone made a lab7 folder, to access any files, I had to change my directories. 
 `cd` lab7
 
-Step 6:Running tests to show that they fail
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java ListExamplesTests.java
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+--- 
 
+Step 6:Running tests to show that they fail
+I ran the tests to show that there was an error in the files.  
+`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java ListExamplesTests.java`
+`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
+This was the error message:
+```
 JUnit version 4.13.2
 ..E
 Time: 0.529
@@ -31,27 +40,51 @@ org.junit.runners.model.TestTimedOutException: test timed out after 500 millisec
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
+```
+
+--- 
 
 Step 7: Editing code to fix the bug
-vim ListExamples.java
-43 down keys
-11 right 
-i and delete and 2
-escape
-:wq!
+To fix the code found in the file found on ieng6, I cannot use a mouse to scroll through. Hence, I need to use vim to access that data. 
+`vim ListExamples.java`
+These are the keys I pressed to navigate: 
+
+To get to the line: 43 `<j>`
+To get to the character: 11 `<l>`
+Change mode to insert and replace: `i` and `<delete>` and `2`
+Exit out of insert mode: `<esc>`
+Save and Exit: `<:wq!>`
+
+--- 
 
 Step 8: Rerunning the files to see success
-[ana012@ieng6-201]:lab7:182$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java ListExamples.java
-[ana012@ieng6-201]:lab7:183$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+I compiled my files again and ran them to test. 
+To access the compile commands and JUnit commands, I used the `<up>` arrow key to access my terminal history. 
+`<up><up><up><up><up><up><up><enter>` My history was 7 commands up, so I pressed the `<up>` 7 times. 
+`[ana012@ieng6-201]:lab7:182$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java ListExamples.java`
+`<up><up><up><up><up><up><up><up><enter>` My history was 8 commands up, so I pressed the `<up>` 8 times. 
+`[ana012@ieng6-201]:lab7:183$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
+This was the output to show our success: 
+```
 JUnit version 4.13.2
 ..
 Time: 0.014
 
 OK (2 tests)
+```
+
+--- 
 
 Step 9: Commit and push
-[ana012@ieng6-201]:lab7:184$ git add --all
-[ana012@ieng6-201]:lab7:185$ git commit -m "lab7report changes"
+After we have made the changes, we should also make changes to my github repo. 
+Adding changes to the staging area: 
+Input: `[ana012@ieng6-201]:lab7:184$ git add --all`
+Finalizing changes: 
+Input: `[ana012@ieng6-201]:lab7:185$ git commit -m "lab7report changes`
+
+Output: 
+```
 [main 4eff394] lab7report changes
  Committer: Anika Agarwal <ana012@ieng6-201.ucsd.edu>
 Your name and email address were configured automatically based
@@ -67,7 +100,12 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 1 insertion(+), 1 deletion(-)
+```
+Pushing changes to github: 
+Input: `[ana012@ieng6-201]:lab7:184$ git push`
 
+Output: 
+```
 numerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 8 threads
@@ -77,4 +115,6 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:anikaagarwal12/lab7.git
    5e6617f..95c7350  main -> main
+```
+
 
