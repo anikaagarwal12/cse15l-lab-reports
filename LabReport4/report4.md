@@ -15,7 +15,7 @@ Since this clone made a lab7 folder, to access any files, I had to change my dir
 
 --- 
 
-Step 6:Running tests to show that they fail   
+Step 6: Running tests to show that they fail   
 I ran the tests to show that there was an error in the files.     
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java ListExamplesTests.java`   
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`   
@@ -60,9 +60,12 @@ Save and Exit: `<:wq!>`
 
 Step 8: Rerunning the files to see success   
 I compiled my files again and ran them to test.    
-To access the compile commands and JUnit commands, I used the `<up>` arrow key to access my terminal history.    
+To access the compile commands and JUnit commands, I used the `<up>` arrow key to access my terminal history.
+
 `<up><up><up><up><up><up><up><enter>` My history was 7 commands up, so I pressed the `<up>` 7 times.    
-`[ana012@ieng6-201]:lab7:182$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java ListExamples.java`   
+`[ana012@ieng6-201]:lab7:182$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java ListExamples.java`
+
+
 `<up><up><up><up><up><up><up><up><enter>` My history was 8 commands up, so I pressed the `<up>` 8 times.   
 `[ana012@ieng6-201]:lab7:183$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`   
    
@@ -80,7 +83,8 @@ OK (2 tests)
 Step 9: Commit and push  
 After we have made the changes, we should also make changes to my github repo.   
 Adding changes to the staging area:   
-Input: `[ana012@ieng6-201]:lab7:184$ git add --all`  
+Input: `[ana012@ieng6-201]:lab7:184$ git add --all`
+
 Finalizing changes:   
 Input: `[ana012@ieng6-201]:lab7:185$ git commit -m "lab7report changes`  
 
