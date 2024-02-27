@@ -66,7 +66,7 @@ To access the compile commands and JUnit commands, I used the `<up>` arrow key t
 `[ana012@ieng6-201]:lab7:182$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java ListExamples.java`
 
 
-`<up><up><up><up><up><up><up><up><enter>` My history was 8 commands up, so I pressed the `<up>` 8 times.   
+`<up><up><up><up><up><up><enter>` My history was 6 commands up, so I pressed the `<up>` 6 times.   
 `[ana012@ieng6-201]:lab7:183$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`   
    
 This was the output to show our success:   
