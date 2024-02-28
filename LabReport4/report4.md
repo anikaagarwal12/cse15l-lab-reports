@@ -50,7 +50,7 @@ To fix the code found in the file found on ieng6, I cannot use a mouse to scroll
 `vim ListExamples.java`  
 These are the keys I pressed to navigate:   
 
-To get to the line: 43 `<j>`   
+To get to the line: 6 `<k>`   
 To get to the character: 11 `<l>`   
 Change mode to insert and replace: `i` and `<delete>` and `2`   
 Exit out of insert mode: `<esc>`   
@@ -62,11 +62,11 @@ Step 8: Rerunning the files to see success
 I compiled my files again and ran them to test.    
 To access the compile commands and JUnit commands, I used the `<up>` arrow key to access my terminal history.
 
-`<up><up><up><up><up><up><up><enter>` My history was 7 commands up, so I pressed the `<up>` 7 times.    
+`<up><up><up><up><up><up><up><enter>` My history was 3 commands up, so I pressed the `<up>` 3 times.    
 `[ana012@ieng6-201]:lab7:182$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java ListExamples.java`
 
 
-`<up><up><up><up><up><up><enter>` My history was 6 commands up, so I pressed the `<up>` 6 times.   
+`<up><up><up><up><up><up><enter>` My history was 3 commands up, so I pressed the `<up>` 3 times.   
 `[ana012@ieng6-201]:lab7:183$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`   
    
 This was the output to show our success:   
