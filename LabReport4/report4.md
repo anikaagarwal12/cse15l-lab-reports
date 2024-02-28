@@ -1,6 +1,7 @@
 Step 4: Logging into ieng6   
 `ssh ana012@ieng6.ucsd.edu`   
 I pressed the relevant keys above to type up things.    
+!Image[Step1]
 Since I wanted to organize my files, I created a `lab7report` folder to clone my fork into   
 `mkdir` to create a  `lab7report` folder
 
