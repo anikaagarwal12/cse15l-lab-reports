@@ -10,8 +10,10 @@ Since I wanted to organize my files, I created a `lab7report` folder to clone my
 --- 
 
 
-Step 5: Cloning my fork   
+Step 5: Cloning my fork
+
 ![Image](Step2.png)
+
 `git clone git@github.com:anikaagarwal12/lab7.git`    
 I pressed the relevant keys above to type up things.    
 Since this clone made a lab7 folder, to access any files, I had to change my directories.    
