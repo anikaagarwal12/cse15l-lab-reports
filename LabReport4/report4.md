@@ -9,6 +9,7 @@ Since I wanted to organize my files, I created a `lab7report` folder to clone my
 
 
 Step 5: Cloning my fork   
+![Image](Step2.png)
 `git clone git@github.com:anikaagarwal12/lab7.git`    
 I pressed the relevant keys above to type up things.    
 Since this clone made a lab7 folder, to access any files, I had to change my directories.    
@@ -17,10 +18,11 @@ Since this clone made a lab7 folder, to access any files, I had to change my dir
 --- 
 
 Step 6: Running tests to show that they fail   
+![Image](Step3.png)
 I ran the tests to show that there was an error in the files.     
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java ListExamplesTests.java`   
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`   
-   
+![Image](Step4.png)   
 This was the error message:   
 ```
 JUnit version 4.13.2
@@ -47,7 +49,7 @@ Tests run: 2,  Failures: 1
 
 Step 7: Editing code to fix the bug   
 To fix the code found in the file found on ieng6, I cannot use a mouse to scroll through. Hence, I need to use vim to access that data.  
-  
+![Image](Step5.png)
 `vim ListExamples.java`  
 These are the keys I pressed to navigate:   
 
@@ -59,7 +61,8 @@ Save and Exit: `<:wq!>`
 
 --- 
 
-Step 8: Rerunning the files to see success   
+Step 8: Rerunning the files to see success  
+![Image](Step7.png)
 I compiled my files again and ran them to test.    
 To access the compile commands and JUnit commands, I used the `<up>` arrow key to access my terminal history.
 
@@ -70,7 +73,8 @@ To access the compile commands and JUnit commands, I used the `<up>` arrow key t
 `<up><up><up><up><up><up><enter>` My history was 3 commands up, so I pressed the `<up>` 3 times.   
 `[ana012@ieng6-201]:lab7:183$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`   
    
-This was the output to show our success:   
+This was the output to show our success:  
+![Image](Step8.png)
 ```
 JUnit version 4.13.2
 ..
@@ -83,10 +87,12 @@ OK (2 tests)
 
 Step 9: Commit and push  
 After we have made the changes, we should also make changes to my github repo.   
-Adding changes to the staging area:   
+Adding changes to the staging area: 
+![Image](Step9.png)
 Input: `[ana012@ieng6-201]:lab7:184$ git add --all`
 
 Finalizing changes:   
+![Image](Step11.png)
 Input: `[ana012@ieng6-201]:lab7:185$ git commit -m "lab7report changes`  
 
 Output:   
@@ -107,7 +113,8 @@ After doing this, you may fix the identity used for this commit with:
 
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
-Pushing changes to github:    
+Pushing changes to github:   
+![Image](Step12.png)
 Input: `[ana012@ieng6-201]:lab7:184$ git push`   
 
 Output:    
