@@ -13,7 +13,8 @@ Since I wanted to organize my files, I created a `lab7report` folder to clone my
 
 Step 5: Cloning my fork
 
-![Image](Step2.png)
+![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/8a1c87fb-6e81-4631-805d-0164c64de7b1)
+
 
 `git clone git@github.com:anikaagarwal12/lab7.git`    
 I pressed the relevant keys above to type up things.    
