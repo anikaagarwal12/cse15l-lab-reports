@@ -1,5 +1,5 @@
 Step 4: Logging into ieng6   
-`ssh ana012@ieng6.ucsd.edu`   
+`ssh<space>ana012@ieng6.ucsd.edu<enter>`   
 I pressed the relevant keys above to type up things. 
 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/5d67db21-86fb-4ea2-971f-7c559da8036a)
@@ -16,10 +16,10 @@ Step 5: Cloning my fork
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/8a1c87fb-6e81-4631-805d-0164c64de7b1)
 
 
-`git clone git@github.com:anikaagarwal12/lab7.git`    
+`git<space>clone<space>git@github.com:anikaagarwal12/lab7.git<enter>`    
 I pressed the relevant keys above to type up things.    
 Since this clone made a lab7 folder, to access any files, I had to change my directories.    
-`cd` lab7
+`cd` lab7 `<enter>`
 
 --- 
 
@@ -31,6 +31,7 @@ I ran the tests to show that there was an error in the files.
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java ListExamplesTests.java`   
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`   
 
+I could've used `test.sh` to run the above part and it would've saved me time and been more efficient. 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/4796e71c-3997-4d29-a4b8-168fa84569b5)
    
 This was the error message:   
@@ -62,7 +63,7 @@ To fix the code found in the file found on ieng6, I cannot use a mouse to scroll
 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/0b0bdae5-4cbe-424f-abad-b3aae65af2d2)
 
-`vim ListExamples.java`  
+`vim<space>ListExamples.java<enter>`  
 These are the keys I pressed to navigate:   
 
 To get to the line: 6 `<k>`   
@@ -107,13 +108,13 @@ Adding changes to the staging area:
 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/6d2d8bac-fc72-4eb6-8335-0288bc86bb3f)
 
-Input: `[ana012@ieng6-201]:lab7:184$ git add --all`
+Input: `[ana012@ieng6-201]:lab7:184$ git<space>add<space>--all<enter>`
 
 Finalizing changes:   
 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/3d5cd60b-bf43-453a-b029-04a2b23b4de6)
 
-Input: `[ana012@ieng6-201]:lab7:185$ git commit -m "lab7report changes`  
+Input: `[ana012@ieng6-201]:lab7:185$ git<space>commit<space>-m<space>"lab7report changes<enter>`  
 
 Output:   
 ``` 
@@ -137,7 +138,7 @@ Pushing changes to github:
 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/0790035c-1110-4c11-a122-ddbd6c65c6b7)
 
-Input: `[ana012@ieng6-201]:lab7:184$ git push`   
+Input: `[ana012@ieng6-201]:lab7:184$ git<space>push<enter>`   
 
 Output:    
 ```
