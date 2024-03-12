@@ -69,7 +69,7 @@ Lines I ran to trigger the bug:
 Description of what to edit to fix the bug: 
 To fix the bug, I edited the following while condition:
 
-Before: ` while(index1 < list1.size() || index2 < list2.size())`
+Before: `while(index1 < list1.size() || index2 < list2.size())`
 
 After: `while(index1 < list1.size() && index2 < list2.size())`
 
