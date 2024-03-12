@@ -8,15 +8,19 @@ Hello,
 
 My name is Anika Agarwal and I am having this issue in my code somewhere in this project.
 Here is what I see on my end when I try to run `bash test.sh`.
+```
+
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/84975310-ac28-4bef-9888-350ddb703a3d)
-
+```
 Here is my code that I have written.
+```
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/aaf3d8d5-6882-4f29-9132-97b00302cde1)
-
+```
 These are the test cases that we were given to test:
+```
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/aa53a44b-d668-4736-b0e6-2f6d1bff7081)
 
-
+```
 I think the error is related my to the length of my arraylist. Each time I call merge(), I create a new arraylist. It seems like I am adding more elements to the arrayList than there is space for which is why I am getting an IndexOutOfBoundsException. Should I throw an exception in my method to limit the number of elements that I can add?
 
 
