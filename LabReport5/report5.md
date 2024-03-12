@@ -65,7 +65,8 @@ Contents of `bash test.sh` before fixing the bug:
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/2808f300-10dc-4954-9bdb-a14099b8da33)
 
 Lines I ran to trigger the bug: 
-`bash test.sh` 
+`bash test.sh`
+
 Description of what to edit to fix the bug: 
 
 To fix the bug, I edited the following while condition:
