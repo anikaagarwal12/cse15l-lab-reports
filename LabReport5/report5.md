@@ -18,7 +18,8 @@ Here is my code that I have written.
 ```
 These are the test cases that we were given to test:
 ```
-![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/aa53a44b-d668-4736-b0e6-2f6d1bff7081)
+![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/fcf3f461-32d3-495a-a6c0-ac31a9aed1fa)
+
 
 ```
 I think the error is related my to the length of my arraylist. Each time I call merge(), I create a new arraylist. It seems like I am adding more elements to the arrayList than there is space for which is why I am getting an IndexOutOfBoundsException. Should I throw an exception in my method to limit the number of elements that I can add?
@@ -63,7 +64,8 @@ Contents of `ListExamples` before fixing the bug:
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/39d7a29c-0f47-414a-8a07-5cf8bee912e0)
 
 Contents of `ListExamplesTests` before fixing the bug: 
-![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/03206f8b-0a90-4b02-b5c1-93b2ce1d23ea)
+![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/f355e3bf-7547-4229-be41-7fe0c9afd661)
+
 
 Contents of `bash test.sh` before fixing the bug: 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/2808f300-10dc-4954-9bdb-a14099b8da33)
