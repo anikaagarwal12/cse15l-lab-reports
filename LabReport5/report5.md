@@ -37,7 +37,7 @@ Anika Agarwal
 Reply from TA
 ```
 I see that the problem is definitely with your ArrayList. Did you try to check your
- while loop conditions. When you are trying to merge two different lists,
+ while loop conditions? When you are trying to merge two different lists,
 what is the condition that must be true for you to make additions to your result arraylist?
 
 Are both lists always going to be of the same size and what if they aren't the same size?
