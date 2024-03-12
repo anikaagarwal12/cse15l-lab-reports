@@ -55,13 +55,13 @@ Conclusion:
 The set-up of this debugging exercise was as follows     
 File Structure: 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/583a54d4-bbfc-4458-b64e-436d3da8be56)
-Contents of ListExamples before fixing the bug: 
+Contents of `ListExamples` before fixing the bug: 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/39d7a29c-0f47-414a-8a07-5cf8bee912e0)
 
-Contents of ListExamplesTests before fixing the bug: 
+Contents of `ListExamplesTests` before fixing the bug: 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/03206f8b-0a90-4b02-b5c1-93b2ce1d23ea)
 
-Contents of bash test.sh before fixing the bug: 
+Contents of `bash test.sh` before fixing the bug: 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/2808f300-10dc-4954-9bdb-a14099b8da33)
 
 Lines I ran to trigger the bug: 
