@@ -74,9 +74,9 @@ Before: ` while(index1 < list1.size() || index2 < list2.size())`
 After: `while(index1 < list1.size() && index2 < list2.size())`
 
 Now, as soon as either list1 or list2 runs out of elements, the while loop stops running and the elements aren't compared. 
+
 ---
----
-Part 2: 
+Part 2:   
 One thing that I learned in the second half of the quarter was how to use vim to edit files remotely without using a text editor. We can use vim to access files that may not be on our computer and just using the terminal, we can access it, run it and edit it. I learned the different short cut keys to use vim. 
 
 I also learned how to use a jdb debugger. It doesn't actually debug things but just tells us where the bug is happening. We as programmers still have to think and figure out where the errors are happening. 
