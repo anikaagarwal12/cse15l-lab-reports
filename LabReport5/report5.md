@@ -52,7 +52,7 @@ Here is the screenshot of the tests passing:
 
 
 Conclusion: 
-The set-up of this debugging exercise was as follows: 
+The set-up of this debugging exercise was as follows     
 File Structure: 
 ![image](https://github.com/anikaagarwal12/cse15l-lab-reports/assets/147211541/583a54d4-bbfc-4458-b64e-436d3da8be56)
 Contents of ListExamples before fixing the bug: 
